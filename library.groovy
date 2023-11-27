@@ -1,4 +1,5 @@
 @Library('pipeline-library-demo')_
+#!/usr/bin/env groovy
 
 @NonCPS
 def parseXml(String xmlContent) {
