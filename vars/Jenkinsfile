@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+@Library('pipeline-library-xml')_
 @NonCPS
 def parseXml(String xmlContent) {
 	def parsedXml = new XmlSlurper().parseText(xmlContent)
